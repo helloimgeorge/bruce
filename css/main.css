@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700);
+
+h1 {
+    margin: 0;
+    margin-left: 20%;
+    vertical-align: middle;
+}
+
+h2 {
+    margin: 0;
+}
+
+.banner {
+    background-color: rgba(15, 15, 15, 0.90);
+    margin: 0;
+    height: 140px;
+    line-height: 140px;
+
+}
+
+body {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+
+
+}
+
+.facePic {
+    float: left;
+}
+
+.about {
+    padding-top: 0.75em;
+    background-color: rgba(40, 143, 254, 0);
+    color: #373737;
+    height: 500px;
+
+
+}
+
+.wrapper {
+    margin-left: 30%;
+}
+
+.me {
+
+}
+
+.suit {
+    position: relative;
+    width: 100%;
+}
+
+.education {
+    color: black;
+    margin-left: 10%;
+}
