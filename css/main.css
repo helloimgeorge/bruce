@@ -4,10 +4,13 @@ h1 {
     margin: 0;
     margin-left: 20%;
     vertical-align: middle;
+    color: white;
 }
 
 h2 {
     margin: 0;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .banner {
@@ -20,11 +23,8 @@ h2 {
 
 body {
     font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
-    color: white;
     font-size: 18px;
     font-weight: 400;
-
-
 }
 
 .facePic {
@@ -36,24 +36,39 @@ body {
     background-color: rgba(40, 143, 254, 0);
     color: #373737;
     height: 500px;
-
-
 }
 
-.wrapper {
-    margin-left: 30%;
+.wrapper-about{
+    margin-left: 355px;
+    max-width: 1000px;
 }
 
 .me {
 
 }
 
-.suit {
-    position: relative;
-    width: 100%;
-}
 
 .education {
     color: black;
-    margin-left: 10%;
+    margin-left: 15px;
+}
+
+.container-current {
+    position: relative;
+}
+
+.wrapper-current {
+    z-index: 100;
+}
+
+.suitImage {
+    
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.insideCurrent {
+    color: white;
+    position: absolute;
 }
