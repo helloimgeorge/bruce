@@ -5,12 +5,32 @@ h1 {
     margin-left: 20%;
     vertical-align: middle;
     color: white;
+    margin-left: 15px;
 }
 
 h2 {
     margin: 0;
     font-weight: 700;
     font-size: 40px;
+    margin-left: 15px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+h1.contact {
+    float: right;
+    margin-right: 2%;
+}
+
+h1.name {
+    float: left;
+    font-size: 50px;
+}
+
+h1.contact, h1.name {
+    margin-top: 10px;
 }
 
 .banner {
@@ -18,6 +38,7 @@ h2 {
     margin: 0;
     height: 140px;
     line-height: 140px;
+    clear: both;
 
 }
 
@@ -39,7 +60,7 @@ body {
 }
 
 .wrapper-about{
-    margin-left: 355px;
+    margin-left: 340px;
     max-width: 1000px;
 }
 
@@ -47,10 +68,9 @@ body {
 
 }
 
-
 .education {
+    margin-top: 50%;
     color: black;
-    margin-left: 15px;
 }
 
 .container-current {
@@ -62,13 +82,29 @@ body {
 }
 
 .suitImage {
-    
+    position: absolute;
     width: 100%;
     left: 0;
     top: 0;
+    margin-bottom: 100px;
 }
 
 .insideCurrent {
     color: white;
     position: absolute;
+    margin-top: 10px;
 }
+
+.insideCurrentText {
+    position: absolute;
+    margin-top: 60px;
+    color: white;
+    margin-right: 66%;
+}
+
+.experience {
+    background-color: #000000;
+    color: white;
+    height: 400px;
+}
+
