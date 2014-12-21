@@ -2,9 +2,13 @@
 <html>
     <head lang="en">
         <meta charset="UTF-8">
+        <meta name="author" content="George Yu">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/scrollable-buttons.css">
+        <link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css">
+        <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
 
         <title>Bruce's Page</title>
     </head>
@@ -21,10 +25,9 @@
             <img src="img/face.jpg" alt="picture of Bruce Yu" class="facePic"/>
             <div class="wrapper-about">
                 <h2 class="me">about me</h2>
-                <p>My name is Bruce Yu, I am currently a manager at Macy's under the Executive Development Program Lorem
-                    ipsum dolor sit amet, consectetur adipisicing elit. Aperiam autem commodi cum cumque dolores
-                    exercitationem expedita harum illum ipsum itaque, libero nam nulla omnis placeat quidem reiciendis
-                    velit! Aspernatur, nemo?</p>
+                <p>My name is Bruce Yu, I am currently a manager at Macy's under the Executive Development Program. I am a University of Washington graduate of 2013 who is passionate about
+                ensuring top-notch customer service both digitally and physically. My specialty focus is focus-marketing on target customer groups that best serve the given product. My previous experiences include
+                being a brand ambassador for Amazon, Microsoft, and Zen Monkey. I have experienced in both dealing with current customers as well as gaining new ones.</p>
                 <p>Contact Information</p>
             </div>
         </div>
@@ -46,7 +49,6 @@
                 Bachelor of Arts in Communication<br>
                 2011 – 2014<br>
                 Areas of Study/ Concentrations:<br>
-
                 - Rhetoric and Critical/Cultural Studies<br>
                 - Political Communication<br>
                 - Social Interaction<br>
@@ -61,7 +63,53 @@
             <p>My name is Bruce Yu, I am currently a manager at Macy's under the Executive Development Program</p>
         </div>
 
+        <div class="box full" >
+            <!-- HTML structures -->
+            <div style="margin:0 auto; width: 634px; height:120px;">
+                <!-- "previous page" action -->
+                <a class="prev browse left"></a>
 
+                <!-- root element for scrollable -->
+                <div class="scrollable" id="scrollable">
+
+                    <!-- root element for the items -->
+                    <div class="items">
+
+                        <!-- 1-5 -->
+                        <div>
+                            <img src="http://farm1.static.flickr.com/143/321464099_a7cfcb95cf_t.jpg" />
+                            <p>Step 1</p>
+                        </div>
+
+                        <!-- 5-10 -->
+                        <div>
+                            <img src="http://farm1.static.flickr.com/163/399223609_db47d35b7c_t.jpg" />
+                            <p>Step 2</p>
+                        </div>
+
+                        <!-- 10-15 -->
+                        <div>
+                            <img src="http://farm4.static.flickr.com/3629/3323896446_3b87a8bf75_t.jpg" />
+                            <p>Step 3</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- "next page" action -->
+                <a class="next browse right"></a>
+
+            </div>
+            <!-- javascript coding -->
+            <script>
+                $(function() {
+                    // initialize scrollable
+                    $(".scrollable").scrollable();
+                });
+            </script>
+
+        </div>
     </body>
 </html>
 
