@@ -12,10 +12,15 @@ a.browse {
     height:300px;
     float:left;
     cursor:pointer;
+    z-index: 10000;
 }
 
 /* right */
-a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+a.right {
+    margin-right: 0px;
+    float: right;
+    z-index: 10000;
+}
 /*a.right:hover { background-position:-30px -30px; }*/
 a.right:active { background-position:-60px -30px; }
 

@@ -3,8 +3,8 @@
     <head lang="en">
         <meta charset="UTF-8">
         <meta name="author" content="George Yu">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/bootstrap.css">
+        <!--<link rel="stylesheet" href="css/normalize.css">-->
+        <!--<link rel="stylesheet" href="css/bootstrap.css">-->
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/scrollable-buttons.css">
         <link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css">
@@ -36,10 +36,12 @@
             <img src="img/suit1.png" alt="background" class="suitImage"/>
             <div class="wrapper-current">
                 <h2 class="insideCurrent">current position</h2>
-                <p class="insideCurrentText">I am currently a department manager at Macy's in downtown Seattle under the Executive Development Program.
-                                             My job compromises of overseeing associates and ensuring that the day-to-day operations go smoothly within
-                                             the Downtown Seattle Macy's. Part of the job requires that I create a fine-balance between managing the department
-                                             as well as serving customers and their needs.</p>
+                <p class="insideCurrentText">I am currently a department manager at Macy's in downtown Seattle under
+                                             the Executive Development Program. My job compromises of overseeing
+                                             associates and ensuring that the day-to-day operations go smoothly within
+                                             the Downtown Seattle Macy's. Part of the job requires that I create a
+                                             fine-balance between managing the department as well as serving customers
+                                             and their needs.</p>
             </div>
         </div>
 
@@ -56,6 +58,13 @@
 
                 Supplemented by Business School Coursework</p>
 
+            <p><b>Honors and Awards</b><br>
+                Husky Tradition Award- Chinese Student Assocation <br>
+                University of Washington <br>
+                June 2014 <br>
+                Phi Theta Kappa Honor Society</p>
+
+
         </div>
 
         <div class="professiona-experience">
@@ -65,40 +74,37 @@
 
         <div class="box full" >
             <!-- HTML structures -->
-            <div style="margin:0 auto; width: 634px; height:120px;">
+            <div style="margin:0 auto; width: 600px; height:250px;">
                 <!-- "previous page" action -->
-                <a class="prev browse left"></a>
+
 
                 <!-- root element for scrollable -->
                 <div class="scrollable" id="scrollable">
-
+                    <a class="prev browse left"></a>
                     <!-- root element for the items -->
                     <div class="items">
 
-                        <!-- 1-5 -->
-                        <div>
-                            <img src="http://farm1.static.flickr.com/143/321464099_a7cfcb95cf_t.jpg" />
+                        <div class="job1">
+                            <img src="img/logos/amazon.jpg" />
                             <p>Step 1</p>
                         </div>
 
-                        <!-- 5-10 -->
-                        <div>
-                            <img src="http://farm1.static.flickr.com/163/399223609_db47d35b7c_t.jpg" />
+                        <div class="job2">
+                            <img src="img/logos/microsoft.png" />
                             <p>Step 2</p>
                         </div>
 
-                        <!-- 10-15 -->
-                        <div>
-                            <img src="http://farm4.static.flickr.com/3629/3323896446_3b87a8bf75_t.jpg" />
+                        <div class="job3">
+                            <img src="img/logos/zen.png" />
                             <p>Step 3</p>
                         </div>
 
                     </div>
-
+                    <!-- "next page" action -->
+                    <a class="next browse right"></a>
                 </div>
 
-                <!-- "next page" action -->
-                <a class="next browse right"></a>
+
 
             </div>
             <!-- javascript coding -->
@@ -108,7 +114,6 @@
                     $(".scrollable").scrollable();
                 });
             </script>
-
         </div>
     </body>
 </html>
