@@ -6,9 +6,10 @@
         <!--<link rel="stylesheet" href="css/normalize.css">-->
         <!--<link rel="stylesheet" href="css/bootstrap.css">-->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" type="text/css" href="css/scrollable-buttons.css">
-        <link rel="stylesheet" type="text/css" href="css/scrollable-horizontal.css">
-        <script src="http://cdn.jquerytools.org/1.2.6/full/jquery.tools.min.js"></script>
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <script src="js/owl.carousel.js"></script>
 
         <title>Bruce's Page</title>
     </head>
@@ -72,49 +73,12 @@
             <p>My name is Bruce Yu, I am currently a manager at Macy's under the Executive Development Program</p>
         </div>
 
-        <div class="box full" >
-            <!-- HTML structures -->
-            <div style="margin:0 auto; width: 1500px; height:250px;">
-                <!-- "previous page" action -->
-
-
-                <!-- root element for scrollable -->
-                <div class="scrollable" id="scrollable">
-                    <a class="prev browse left"></a>
-                    <!-- root element for the items -->
-                    <div class="items">
-
-                        <div class="job1">
-                            <img src="img/logos/amazon.jpg" />
-                            <p>Step 1</p>
-                        </div>
-
-                        <div class="job2">
-                            <img src="img/logos/microsoft.png" />
-                            <p>Step 2</p>
-                        </div>
-
-                        <div class="job3">
-                            <img src="img/logos/zen.png" />
-                            <p>Step 3</p>
-                        </div>
-
-                    </div>
-                    <!-- "next page" action -->
-                    <a class="next browse right"></a>
-                </div>
-
-
-
-            </div>
-            <!-- javascript coding -->
-            <script>
-                $(function() {
-                    // initialize scrollable
-                    $(".scrollable").scrollable();
-                });
-            </script>
+        <div id="owl-demo" class="owl-carousel owl-theme">
+            <div class="item"><img src="img/logos/microsoft.png" alt="The Last of us"></div>
+            <div class="item"><img src="img/logos/amazon.jpg" alt="GTA V"></div>
+            <div class="item"><img src="img/logos/zen.png" alt="Mirror Edge"></div>
         </div>
+
     </body>
 </html>
 

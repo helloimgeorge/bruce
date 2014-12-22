@@ -5,7 +5,17 @@
 }
 
 /* prev, next, prevPage and nextPage buttons */
-a.browse {
+a.left {
+    background: url(../img/buttons/back.png) no-repeat;
+    display:block;
+    width:300px;
+    height:300px;
+    float:left;
+    cursor:pointer;
+    z-index: 10000;
+}
+
+a.right {
     background: url(../img/buttons/forward.png) no-repeat;
     display:block;
     width:300px;
@@ -36,7 +46,7 @@ a.left:active {
     background-position: -20px 0;
 }
 
-/* disabled navigational button */
+/* disabled navigational button
 a.disabled {
     visibility:hidden !important;
-}
+} */

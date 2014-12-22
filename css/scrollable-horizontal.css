@@ -24,6 +24,10 @@
     z-index: -1;
 }
 
+.items {
+    margin-left: 250px;
+}
+
 .items div {
     float:left;
     width:10000px;
