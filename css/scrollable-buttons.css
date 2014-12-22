@@ -21,14 +21,20 @@ a.right {
     float: right;
     z-index: 10000;
 }
+
 /*a.right:hover { background-position:-30px -30px; }*/
-a.right:active { background-position:-60px -30px; }
+
+a.right:active {
+    background-position: 20px 0;
+}
 
 
 /* left */
 a.left { margin-left: 0px; }
 /*a.left:hover  { background-position:-30px 0; } */
-a.left:active { background-position:-60px 0; }
+a.left:active {
+    background-position: -20px 0;
+}
 
 /* disabled navigational button */
 a.disabled {

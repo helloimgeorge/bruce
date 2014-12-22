@@ -6,7 +6,7 @@
     /* required settings */
     position:relative;
     overflow:hidden;
-    width: 1000px;
+    width: 1500px;
     height:300px;
 }
 
@@ -21,11 +21,13 @@
     width:10000em;
     position:absolute;
     clear:both;
+    z-index: -1;
 }
 
 .items div {
     float:left;
     width:10000px;
+    z-index: -1;
 }
 
 /* single scrollable item */
