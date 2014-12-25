@@ -15,4 +15,5 @@ $(document).ready(function() {
         // itemsMobile : false
 
     });
+    console.log("Hi");
 });
